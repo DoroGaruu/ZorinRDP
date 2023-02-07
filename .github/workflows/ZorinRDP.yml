@@ -33,7 +33,7 @@ jobs:
           copy wallpaper.jpg D:\a\wallpaper.jpg
           copy wallpaper.bat D:\a\wallpaper.bat
           copy fdm_x64_setup.exe C:\Users\Public\Downloads\fdm_x64_setup.exe
-          copy librewolf-107.0-1.en-US.win64-setup.exe C:\Users\Public\Downloads\librewolf-107.0-1.en-US.win64-setup.exe
+          copy librewolf-109.0-1.en-US.win64-setup.exe C:\Users\Public\Downloads\librewolf-109.0-1.en-US.win64-setup.exe
 
       - name: Create Tunnel
         run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
