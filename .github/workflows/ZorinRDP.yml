@@ -49,5 +49,5 @@ jobs:
 
       - name: TimeCount
         run: |
-          Invoke-WebRequest https://raw.githubusercontent.com/ZorinArch/ZorinRDP/main/resources/loop.ps1 -OutFile loop.ps1
+          Invoke-WebRequest https://raw.githubusercontent.com/DoroGaruu/ZorinRDP/main/resources/loop.ps1 -OutFile loop.ps1
           ./loop.ps1
