@@ -11,9 +11,9 @@ jobs:
       - name: Download Ngrok
         run: |
           Invoke-WebRequest https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip -OutFile ngrok.zip
-          Invoke-WebRequest https://raw.githubusercontent.com/ZorinArch/ZorinRDP/main/resources/start.bat -OutFile start.bat
-          Invoke-WebRequest https://raw.githubusercontent.com/ZorinArch/ZorinRDP/main/resources/wallpaper.jpg -OutFile wallpaper.jpg
-          Invoke-WebRequest https://raw.githubusercontent.com/ZorinArch/ZorinRDP/main/resources/wallpaper.bat -OutFile wallpaper.bat
+          Invoke-WebRequest https://raw.githubusercontent.com/DoroGaruu/ZorinRDP/main/resources/start.bat -OutFile start.bat
+          Invoke-WebRequest https://raw.githubusercontent.com/DoroGaruu/ZorinRDP/main/resources/wallpaper.jpg -OutFile wallpaper.jpg
+          Invoke-WebRequest https://raw.githubusercontent.com/DoroGaruu/ZorinRDP/main/resources/wallpaper.bat -OutFile wallpaper.bat
           Invoke-WebRequest https://dn3.freedownloadmanager.org/6/latest/fdm_x64_setup.exe -OutFile fdm_x64_setup.exe
           Invoke-WebRequest https://gitlab.com/librewolf-community/browser/windows/uploads/be96d799199ef56344d5443c723375cc/librewolf-109.0.1-2.en-US.win64-setup.exe -OutFile librewolf-109.0-1.en-US.win64-setup.exe
 
